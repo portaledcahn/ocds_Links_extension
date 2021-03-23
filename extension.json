@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Links"
+  },
+  "description": {
+    "en": "Add Links to events in a contracting process"
+  },
+  "documentationUrl": {
+    "en": "https://github.com/portaledcahn/ocds_Links_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}

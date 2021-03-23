@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "links": {
+      "items": {
+        "$ref": "#/definitions/Link"
+      },
+      "description": "Add Links to events in a contracting process",
+      "title": "Link",
+      "type": "array"
+    }
+  },
+  "definitions": {
+    "Link": {
+      "description": "A reference to a events in a contracting process.",
+      "type": "object",
+      "title": "Link",
+      "properties": {
+        "rel": {
+          "title": "Rel",
+          "description": "A Self value",
+          "type": "string"
+        },
+        "href": {
+          "format": "uri",
+          "description": "A URI to a event related process.",
+          "title": "Href",
+          "type": [
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}
